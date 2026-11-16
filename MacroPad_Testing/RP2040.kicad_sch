@@ -2396,6 +2396,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 86.36) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37694f99-19cc-4e76-99ad-7553121e5ed4")
+	)
+	(wire
+		(pts
 			(xy 100.33 96.52) (xy 113.03 96.52)
 		)
 		(stroke
@@ -2406,7 +2416,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 113.03 76.2)
+			(xy 87.63 80.01) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cea25a-0b98-4b05-a590-dd53b0f555a8")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 113.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2493,16 +2513,6 @@
 			(type default)
 		)
 		(uuid "515f1852-52da-46f7-9723-bda8dca56fd6")
-	)
-	(wire
-		(pts
-			(xy 87.63 86.36) (xy 87.63 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54dc5912-d65c-4aa4-b3fd-7eba80d5a80f")
 	)
 	(wire
 		(pts
@@ -2636,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 76.2 81.28)
+			(xy 76.2 81.28) (xy 76.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3026,6 +3036,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 73.66) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcc6209-6a57-4754-b505-1d4d07eafe8f")
+	)
+	(wire
+		(pts
 			(xy 177.8 109.22) (xy 163.83 109.22)
 		)
 		(stroke
@@ -3363,7 +3383,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 87.63 86.36 90)
+		(at 87.63 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3780,7 +3800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -3851,7 +3871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 80.01 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 77.47 127 0)
 			(hide yes)
 			(show_name no)
@@ -4019,7 +4039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 78.74 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4099,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 58.42 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4259,7 +4279,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 74.93 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4309,7 +4329,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 83.82 0)
+		(at 76.2 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4319,7 +4339,7 @@
 		(dnp no)
 		(uuid "40020549-7d4d-4faa-bc8e-7192a4812b92")
 		(property "Reference" "#PWR07"
-			(at 76.2 90.17 0)
+			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4330,7 +4350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 87.63 0)
+			(at 72.39 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4340,7 +4360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 83.82 0)
+			(at 76.2 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 83.82 0)
+			(at 76.2 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 83.82 0)
+			(at 76.2 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4418,7 +4438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 151.13 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4468,7 +4488,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 78.74 78.74 0)
+		(at 78.74 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4479,7 +4499,7 @@
 		(dnp no)
 		(uuid "582d7288-e641-4545-8d1c-49d81132cbcf")
 		(property "Reference" "SW2"
-			(at 81.28 80.01 0)
+			(at 81.28 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4489,7 +4509,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 81.28 82.55 0)
+			(at 81.28 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4498,8 +4518,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 78.74 78.74 0)
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4510,7 +4530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 78.74 0)
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +4541,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 78.74 78.74 0)
+			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +4589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "18p"
 			(at 80.01 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4580,7 +4600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 77.47 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5251,7 +5271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 113.03 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5333,7 +5353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 97.79 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5382,6 +5402,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 87.63 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb13e6c1-b935-4066-8ce6-068e293db43e")
+		(property "Reference" "R7"
+			(at 90.17 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 90.17 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 87.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 87.63 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "232f3307-1d06-4fe7-a321-eb4b0cc38582")
+		)
+		(pin "1"
+			(uuid "1835e66c-6e35-4d1c-99ca-320f08e644e5")
+		)
+		(instances
+			(project "MacroPad_Testing"
+				(path "/f6735a38-7840-46a3-bcc4-18da7d56a55c/cfaed7b7-666b-4b8e-ac88-43081778926e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 82.55 38.1 0)
 		(mirror y)
@@ -5415,7 +5517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 82.55 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5579,7 +5681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +5840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 130.81 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +5911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k PU"
+		(property "Value" "5k1"
 			(at 90.17 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5820,7 +5922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)

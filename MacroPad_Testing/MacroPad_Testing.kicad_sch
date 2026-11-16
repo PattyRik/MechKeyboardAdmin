@@ -2061,6 +2061,94 @@
 		(color 0 0 0 0)
 		(uuid "f65e8d0d-d987-4a35-9a28-e622a1e8f84d")
 	)
+	(no_connect
+		(at 133.35 124.46)
+		(uuid "01d85c82-688d-4ec1-b335-f5437545b0a2")
+	)
+	(no_connect
+		(at 133.35 121.92)
+		(uuid "04c26dd2-5c00-463c-9ffd-de1ec5901546")
+	)
+	(no_connect
+		(at 133.35 154.94)
+		(uuid "1a5f3d1b-86e2-459f-9ffb-87b574b065de")
+	)
+	(no_connect
+		(at 133.35 149.86)
+		(uuid "1ea7a6c2-3307-468a-91aa-59085f136135")
+	)
+	(no_connect
+		(at 133.35 134.62)
+		(uuid "25285cb8-4ae5-4d2b-a022-103cd394d76d")
+	)
+	(no_connect
+		(at 133.35 132.08)
+		(uuid "297ae632-e73f-4dbe-bc77-761e877ad64a")
+	)
+	(no_connect
+		(at 133.35 129.54)
+		(uuid "34aa23ea-c24d-45e4-99a7-badf09fc9d7b")
+	)
+	(no_connect
+		(at 133.35 137.16)
+		(uuid "422d128c-716c-4e00-a0ae-fc46c6cff4ad")
+	)
+	(no_connect
+		(at 133.35 147.32)
+		(uuid "61217a5e-d890-444f-b1de-7cde1587e6d9")
+	)
+	(no_connect
+		(at 133.35 111.76)
+		(uuid "6e74e97d-5e08-4962-8a11-4cb551b42997")
+	)
+	(no_connect
+		(at 133.35 152.4)
+		(uuid "6fa7fca1-4ac9-425a-a4df-ea73628c2e22")
+	)
+	(no_connect
+		(at 133.35 93.98)
+		(uuid "8d7faf33-d247-4883-b947-5687dc16a803")
+	)
+	(no_connect
+		(at 119.38 78.74)
+		(uuid "a7269897-c347-4f09-98f2-fbbd77d2ddc9")
+	)
+	(no_connect
+		(at 133.35 114.3)
+		(uuid "b0e81b53-5f7d-41d9-b814-5f01c7b8d3d2")
+	)
+	(no_connect
+		(at 133.35 106.68)
+		(uuid "c27dc9a1-5bd6-41fe-bf3f-7ea78282586e")
+	)
+	(no_connect
+		(at 133.35 109.22)
+		(uuid "c4bc2469-af76-4ace-a47c-43f640ea4018")
+	)
+	(no_connect
+		(at 133.35 127)
+		(uuid "cab80ede-9106-4638-b5f1-8d5e5c3eabd6")
+	)
+	(no_connect
+		(at 133.35 119.38)
+		(uuid "ce5ca383-ac3a-4219-8ad0-a06ed44f94ed")
+	)
+	(no_connect
+		(at 133.35 144.78)
+		(uuid "ce9f5260-50d5-469f-b9b1-131b058b1574")
+	)
+	(no_connect
+		(at 133.35 142.24)
+		(uuid "e93553a5-da38-4814-b16f-6527b293bd26")
+	)
+	(no_connect
+		(at 133.35 116.84)
+		(uuid "f70c010b-565a-4da4-80ad-aa34809460b1")
+	)
+	(no_connect
+		(at 133.35 139.7)
+		(uuid "f815679d-987e-42d2-afc3-d3853cda5c0b")
+	)
 	(wire
 		(pts
 			(xy 193.04 151.13) (xy 210.82 151.13)
@@ -3071,6 +3159,16 @@
 		)
 		(uuid "3861fed9-5bf4-4521-84bf-3e8d01f2087f")
 	)
+	(label "USB_D+"
+		(at 78.74 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41e96310-59e3-4b8e-9e50-cbe6d6ec2ec4")
+	)
 	(label "Matrix row 1"
 		(at 193.04 74.93 180)
 		(effects
@@ -3170,6 +3268,16 @@
 			(justify left bottom)
 		)
 		(uuid "ab8c4484-fd85-4fcf-a5b5-a51679b1015e")
+	)
+	(label "USB_D-"
+		(at 81.28 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bac9611a-1c07-4fe6-b24f-fee81b3393c5")
 	)
 	(label "Matrix row 2"
 		(at 193.04 100.33 180)
@@ -3608,7 +3716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 38.1 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3844,7 +3952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 86.36 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3924,7 +4032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 110.49 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4372,7 +4480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USBC_Receptacle:AMPHENOL_10171746-00021LF"
 			(at 64.77 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6060,7 +6168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.63 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6456,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 43.18 48.26 0)
 			(hide yes)
 			(show_name no)
